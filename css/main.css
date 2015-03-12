@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.robot {
+  position: relative;
+}
+img {
+  display: block;
+}
+.robot-body {
+  width: 320px;
+  position: absolute;
+}
+.brain {
+  width: 46px;
+}
+.head-left {
+  width: 125px;
+}
+.head-right {
+  width: 125px;
+}
+.background {
+  background-color: #2c3950;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-family: 'Contrail One', cursive;
+  color: #fff;
+  background-color: #1a2230;
+}
